@@ -10,7 +10,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
-	public $host = 'localhost';
+	public $host = 'db01-share';
 	public $user = 'Custom App-24849';
 	public $password = 'Em@tccmRs.15';
 	public $db = 'testplatform_phpfogapp_com';

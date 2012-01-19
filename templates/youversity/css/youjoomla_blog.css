@@ -1,0 +1,121 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla LLC. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla LLC                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/*----------------------------------------------------------------------
+	Category
+----------------------------------------------------------------------*/
+.YjCategoryView{
+	padding:5px;
+	overflow:hidden;
+}
+.YjCategoryView .yjsg-categorydesc{
+	padding:10px;
+	margin:10px 0;
+}
+/*----------------------------------------------------------------------
+	Category items
+----------------------------------------------------------------------*/
+.YjCategoryView .news_item_c{
+	padding:10px;
+	margin:0;
+	overflow:hidden;
+}
+.YjCategoryView .first .news_item_c{
+	margin:0 10px 15px 0!important;
+}
+.YjCategoryView .last .news_item_c{
+	margin:0 0 15px 10px!important;
+}
+/*----------------------------------------------------------------------
+	Subcategory
+----------------------------------------------------------------------*/
+/* holder*/
+.YjsubCategoryBlock {
+	display:block;
+	overflow:hidden;
+}
+/* rows*/
+.YjsubCategoryRow{
+	float:left;
+}
+/* subcat */
+.YjsubCategory {
+	display:block;
+	overflow:hidden;
+	padding:20px;
+	margin:0 10px 10px 10px;
+}
+.YjsubCategory.first{
+	margin:0 10px 10px 0;
+}
+.YjsubCategory.last{
+	margin-right:0;
+}
+
+/* title*/
+.YjsubCategory h2 {
+	font-size:20px;
+	text-align:center;
+}
+/* image */
+.YjsubCategoryImage {
+	margin:0 auto;
+	overflow:hidden;
+	text-align:center;
+	display:block;
+}
+.YjsubCategoryImage a img{
+	padding:3px;
+	overflow:hidden;
+	background:#eee;
+	border:1px solid #e4e4e4;
+}
+.YjsubCategoryImage a:hover img{
+	background:#bfbfbf;
+	border:1px solid #b3b3b3;
+}
+/* description*/
+.YjsubCategoryDesc {
+	display:block;
+	overflow:hidden;
+}
+/* read more */
+a.YjReadmore{
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin:5px 0 0 0;
+	font-size:11px;
+}
+a.YjReadmore span{}
+/* row separator*/
+.YjsubCategoryBlock span.row-separator{
+	display:block;
+	clear:both;
+	overflow:hidden;
+	margin:0 0 10px 0;
+}
+/*----------------------------------------------------------------------
+	Custom for Youevents
+----------------------------------------------------------------------*/
+.YjsubCategory,.yjsg-categorydesc,.YjCategoryView .news_item_c{
+}
+.yjsg-categorydesc,.YjCategoryView .news_item_c{
+	background:#F4F4F4;
+	border:1px solid #e4e4e4;
+}
+.YjCategoryView .newsitem_text img{
+	margin:0 0 10px 0;
+	padding:3px;
+	background:#bfbfbf;
+}
